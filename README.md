@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-
+![alt text](https://github.com/miraan/ImageGridView/blob/master/Example/recording.gif "Drag and drop images, add and delete.")
 
 ## Installation
 

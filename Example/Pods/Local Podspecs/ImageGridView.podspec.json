@@ -1,7 +1,7 @@
 {
   "name": "ImageGridView",
   "version": "0.1.0",
-  "summary": "A short description of ImageGridView.",
+  "summary": "A drag and drop, reorderable, image grid suitable for a profile picture selector.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/miraan/ImageGridView",
   "license": {
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ImageGridView/Classes/**/*"
+  "source_files": "ImageGridView/Classes/**/*",
+  "resource_bundles": {
+    "ImageGridView": [
+      "ImageGridView/Assets/*.png"
+    ]
+  }
 }

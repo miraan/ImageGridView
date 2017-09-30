@@ -3,7 +3,6 @@
 //  ImageGridView
 //
 //  Created by miraan on 09/30/2017.
-//  Copyright (c) 2017 miraan. All rights reserved.
 //
 
 import UIKit
@@ -36,17 +35,16 @@ class ViewController: UIViewController {
 
 extension ViewController: ImageGridViewDelegate {
     
-    func imageGridViewSize(_ imageGridView: ImageGridView) -> Int {
-        return 3 // The length of the grid, so the capacity will be the square of this number
-    }
-    
     func imageGridView(_ imageGridView: ImageGridView, didTapDeleteForImage index: Int) {
-        print("Deleted image \(index)")
+        self.images.remove(at: index)
+        self.imageGridView.reload()
     }
     
     func imageGridViewDidTapAddImage(_ imageGridView: ImageGridView) {
-        print("Tapped add image")
-        // Open your image picker here, and when the user selects an image,
+        let images = [#imageLiteral(resourceName: "ProfilePicture1"), #imageLiteral(resourceName: "ProfilePicture2"), #imageLiteral(resourceName: "ProfilePicture3"), #imageLiteral(resourceName: "ProfilePicture4")]
+        let image = images[Int(arc4random_uniform(UInt32(images.count)))]
+        self.images.append(image)
+        self.imageGridView.reload()
     }
     
     func imageGridView(_ imageGridView: ImageGridView, didMoveImage fromIndex: Int, toIndex: Int) {

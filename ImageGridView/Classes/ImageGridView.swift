@@ -3,45 +3,42 @@
 //  ImageGridView
 //
 //  Created by Miraan on 30/09/2017.
-//  Copyright © 2017 Miraan. All rights reserved.
 //
 
 import UIKit
 
-protocol ImageGridViewDelegate {
-    func imageGridViewSize(_ imageGridView: ImageGridView) -> Int // The length of the grid, so the capacity will be the square of this number
+public protocol ImageGridViewDelegate {
     func imageGridView(_ imageGridView: ImageGridView, didTapDeleteForImage index: Int)
     func imageGridViewDidTapAddImage(_ imageGridView: ImageGridView)
     func imageGridView(_ imageGridView: ImageGridView, didMoveImage fromIndex: Int, toIndex: Int)
 }
 
-protocol ImageGridViewDatasource {
+public protocol ImageGridViewDatasource {
     func imageGridViewImages(_ imageGridView: ImageGridView) -> [UIImage]
 }
 
-class ImageGridView: UIView {
+public class ImageGridView: UIView {
     
     let itemPadding: CGFloat = 10.0
     var overlapThreshold: CGFloat = 0.0
     
-    var delegate: ImageGridViewDelegate!
-    var datasource: ImageGridViewDatasource!
+    public var delegate: ImageGridViewDelegate!
+    public var datasource: ImageGridViewDatasource!
     
     var itemViews: [ImageGridItemView] = []
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         if frame.size.width != frame.size.height {
             print("ImageGridView:init(frame:) error: Width and height are not the same")
         }
-        self.backgroundColor = UIColor.gray
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func reload() {
+    public func reload() {
         if delegate == nil {
             print("ImageGridView:reload() error: No delegate")
             return
@@ -53,18 +50,18 @@ class ImageGridView: UIView {
             itemView.removeFromSuperview()
         }
         self.itemViews = []
-        let size = delegate.imageGridViewSize(self)
         let images = datasource.imageGridViewImages(self)
-        if images.count > size * size {
-            print("ImageGridView:reload() error: Have \(images.count) images but capacity is only \(size * size)")
+        var size = 2
+        while images.count >= size * size {
+            size = size + 1
         }
-        let totalPadding = CGFloat(size + 1) * itemPadding
+        let totalPadding = CGFloat(size - 1) * itemPadding
         let itemSize = (frame.size.width - totalPadding) / CGFloat(size)
         self.overlapThreshold = itemSize / 2
         for row in 0...size-1 {
             for col in 0...size-1 {
-                let x = (CGFloat(col) * itemSize) + (CGFloat(col + 1) * itemPadding)
-                let y = (CGFloat(row) * itemSize) + (CGFloat(row + 1) * itemPadding)
+                let x = (CGFloat(col) * itemSize) + (CGFloat(col) * itemPadding)
+                let y = (CGFloat(row) * itemSize) + (CGFloat(row) * itemPadding)
                 let itemView = ImageGridItemView(frame: CGRect(x: x, y: y, width: itemSize, height: itemSize))
                 let index = (row * size) + col
                 itemView.index = index

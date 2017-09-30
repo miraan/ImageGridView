@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2626FBAFE0CB427C6FDBBDAC848E7260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		12E2D1518B1A4137C5A7BA198530CD1E /* ImageGridView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 58C0D43812F141A2A20537D79CF543BC /* ImageGridView.bundle */; };
+		2E22FCE13250212658D16F6B672BAAA6 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64D9B86DC0157F9214F874711E59FEC /* ImageGridView.swift */; };
 		3BCA081B210F3C19D766E3C863C5B36E /* Pods-ImageGridView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E952F03A0F494034952606B12A78E3B1 /* Pods-ImageGridView_Example-dummy.m */; };
-		5305CD4E1F80143F0027F2E7 /* ImageGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5305CD4C1F80143F0027F2E7 /* ImageGridItemView.swift */; };
-		5305CD4F1F80143F0027F2E7 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5305CD4D1F80143F0027F2E7 /* ImageGridView.swift */; };
+		532767531F803D3300B19026 /* CrossIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 532767521F803D3300B19026 /* CrossIcon.png */; };
 		6A78E0EEFD10DC4F4A12B7E8D6966D74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6EC11DCC6CCB0F429EB91405710B5752 /* ImageGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1627E0AE8777241F4D02280BD8E76D /* ImageGridItemView.swift */; };
+		8E984E9B1ECEF678DC482E941A328E38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9AF894C217645AB843D892B753A0E2AC /* ImageGridView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D32B93E3A7261609EBD88EB2AB8839 /* ImageGridView-dummy.m */; };
+		B5C85D8A9DE362E35F2470C37E116606 /* PlusIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 231FB3A8240F8C211CCD27849F7FCD3D /* PlusIcon.png */; };
 		B9B4FD41B5871BBBC39D24415B4E8C4C /* Pods-ImageGridView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E80FCA4FD655E33FE3333EAAEC4BD95B /* Pods-ImageGridView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA5ECC466EB832121D76FBD0ADF3DDCF /* Pods-ImageGridView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1700449F90C66DEC237DD7E2DE143 /* Pods-ImageGridView_Tests-dummy.m */; };
-		BFCDA10E557ACF314D28BD105D851D6A /* ImageGridView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1A66798C35110FB3E7DE9DF211D5A5 /* ImageGridView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD1A90B89A7EF517C192048B24245590 /* ImageGridView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C813C4EE013CC515B28E85DCEFBB7EA /* ImageGridView-dummy.m */; };
 		CE8D2A0B3E30426625B8B3E0F0B0E51C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E4A4BB2C7B2AAB937F6276245846EC47 /* Pods-ImageGridView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FE07637FAB29C25B79F014A4D7CE2D /* Pods-ImageGridView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2C53CE7412370EF2847533CE08E36C7 /* ImageGridView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 418077AA022AC19DBA16EF4C1A3246D3 /* ImageGridView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,45 +28,56 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AA6E8D1E014CF40C7C3F3660D4458A36;
+			remoteGlobalIDString = 3E6FCDB66D0B7956D78995D248CABB3B;
 			remoteInfo = ImageGridView;
+		};
+		B17081E1979B90389F84548DADA196FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3AB6F1A521169EECEFA4D462AC1A888;
+			remoteInfo = "ImageGridView-ImageGridView";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		069B31FBEA79E246F4F82C1D7C3AD826 /* Pods_ImageGridView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageGridView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB1700449F90C66DEC237DD7E2DE143 /* Pods-ImageGridView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageGridView_Tests-dummy.m"; sourceTree = "<group>"; };
+		1B27FDDFF1EB1A1299DA19857FFA18DF /* Pods_ImageGridView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageGridView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		231FB3A8240F8C211CCD27849F7FCD3D /* PlusIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = PlusIcon.png; sourceTree = "<group>"; };
 		2911D305DAD888F558D6725E3512AD61 /* Pods-ImageGridView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageGridView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		303331B30FECEF71AAE15FAA3085486F /* ImageGridView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ImageGridView.modulemap; sourceTree = "<group>"; };
 		315C9FD2CFC36A7409782082AF512A7C /* Pods-ImageGridView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageGridView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		388C5D96C4759874362FA3E9C7D34E74 /* ImageGridView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageGridView-prefix.pch"; sourceTree = "<group>"; };
-		3C1A66798C35110FB3E7DE9DF211D5A5 /* ImageGridView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageGridView-umbrella.h"; sourceTree = "<group>"; };
+		39C8B991F7EF9CE9C11A19C0719E7FD6 /* ImageGridView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageGridView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E62DFF078D5180FDF1AFA8ACB71115F /* Pods-ImageGridView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageGridView_Example-resources.sh"; sourceTree = "<group>"; };
+		418077AA022AC19DBA16EF4C1A3246D3 /* ImageGridView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageGridView-umbrella.h"; sourceTree = "<group>"; };
 		4768218CB784D7EB3DF7EC1760119A77 /* Pods-ImageGridView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ImageGridView_Example.modulemap"; sourceTree = "<group>"; };
 		49E7F06819888BBBF03442371C77385D /* Pods-ImageGridView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageGridView_Tests-resources.sh"; sourceTree = "<group>"; };
-		4C6D19AD2FD3C116F0BB04D4D7420DC8 /* Pods_ImageGridView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageGridView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5305CD4C1F80143F0027F2E7 /* ImageGridItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGridItemView.swift; sourceTree = "<group>"; };
-		5305CD4D1F80143F0027F2E7 /* ImageGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
-		53C8E09F2A1903EC272586B4E62DB7E8 /* ImageGridView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageGridView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		528F0566A96A5C50F228208C7C07727D /* ImageGridView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ImageGridView.modulemap; sourceTree = "<group>"; };
+		532767521F803D3300B19026 /* CrossIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CrossIcon.png; sourceTree = "<group>"; };
+		58C0D43812F141A2A20537D79CF543BC /* ImageGridView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageGridView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1627E0AE8777241F4D02280BD8E76D /* ImageGridItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageGridItemView.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		69F653A08872E699D2F5E23D5E7B9426 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FCFAF1AA9DFFFAE34EB51CEA0F3DDCA /* ImageGridView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageGridView.xcconfig; sourceTree = "<group>"; };
-		7C813C4EE013CC515B28E85DCEFBB7EA /* ImageGridView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageGridView-dummy.m"; sourceTree = "<group>"; };
 		8180EBC1CA7AE1104C11411C358130F1 /* Pods-ImageGridView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageGridView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		830061D862F76B3DE11A0C620A908F56 /* Pods-ImageGridView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageGridView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		832754E87BFE36835519F400505827A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83AC0B620C3FF0B3385C8138C0B0DFFB /* Pods-ImageGridView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ImageGridView_Tests.modulemap"; sourceTree = "<group>"; };
 		840666CF09C0D07BDC24144D0EC72F61 /* Pods-ImageGridView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageGridView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		88F7F9D445FB9388853371E6E028A5FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FD2A16D9E1C11E43282711C3395170A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95E81E083032838EF2539746E21B27EE /* ResourceBundle-ImageGridView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ImageGridView-Info.plist"; sourceTree = "<group>"; };
 		99FE07637FAB29C25B79F014A4D7CE2D /* Pods-ImageGridView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageGridView_Example-umbrella.h"; sourceTree = "<group>"; };
 		9B16CE1BE0DBD7FFB5B7CC2347353D26 /* Pods-ImageGridView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageGridView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A25AF6B05A60BCBC77C478A84CAF9312 /* Pods-ImageGridView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageGridView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A6D32B93E3A7261609EBD88EB2AB8839 /* ImageGridView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageGridView-dummy.m"; sourceTree = "<group>"; };
 		ADE49F822F321BE8E004C8D314D4DD08 /* Pods-ImageGridView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageGridView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B64D9B86DC0157F9214F874711E59FEC /* ImageGridView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
+		B9240371BA39C8168BB29DC9AEF12B3B /* ImageGridView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageGridView-prefix.pch"; sourceTree = "<group>"; };
 		C1A6F9F85EB2DCE3D8B0335D1432D6C2 /* Pods-ImageGridView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageGridView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB73E948CB95CFE01DACFA15AF75428C /* ImageGridView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageGridView.xcconfig; sourceTree = "<group>"; };
 		CDB78D5F965E6B9E1F19B0C518D965EF /* Pods-ImageGridView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageGridView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E80FCA4FD655E33FE3333EAAEC4BD95B /* Pods-ImageGridView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageGridView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E952F03A0F494034952606B12A78E3B1 /* Pods-ImageGridView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageGridView_Example-dummy.m"; sourceTree = "<group>"; };
+		F36B1B556402D0658AE0269D9072E659 /* Pods_ImageGridView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageGridView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +89,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		260A61D640F234B85E3382E14599EF89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		699CAFA7917A22C3F997D82DD64FB2D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,11 +104,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84F471F95D906919A364621DF3DD77D0 /* Frameworks */ = {
+		AA6BE08A089FAB6B6FCC62BB85F9BE8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2626FBAFE0CB427C6FDBBDAC848E7260 /* Foundation.framework in Frameworks */,
+				8E984E9B1ECEF678DC482E941A328E38 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,42 +133,78 @@
 			path = "Target Support Files/Pods-ImageGridView_Example";
 			sourceTree = "<group>";
 		};
-		4AFF1A99036EADD1EFA09FC5EDD3CECA /* Products */ = {
+		0F1BF080C36C4C5D056411CDA0C00C57 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				53C8E09F2A1903EC272586B4E62DB7E8 /* ImageGridView.framework */,
-				069B31FBEA79E246F4F82C1D7C3AD826 /* Pods_ImageGridView_Example.framework */,
-				4C6D19AD2FD3C116F0BB04D4D7420DC8 /* Pods_ImageGridView_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5AD0EDFC55FF20FD89DD160F5279351C /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				5305CD4C1F80143F0027F2E7 /* ImageGridItemView.swift */,
-				5305CD4D1F80143F0027F2E7 /* ImageGridView.swift */,
+				5C1627E0AE8777241F4D02280BD8E76D /* ImageGridItemView.swift */,
+				B64D9B86DC0157F9214F874711E59FEC /* ImageGridView.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		47393D05E3439167075A033429C58A87 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				532767521F803D3300B19026 /* CrossIcon.png */,
+				231FB3A8240F8C211CCD27849F7FCD3D /* PlusIcon.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				DDA2D54ED81037844ABE4BD3B7CFA23A /* Development Pods */,
+				D8F58E3DBE0505A9C4E3BC192793C6E4 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4AFF1A99036EADD1EFA09FC5EDD3CECA /* Products */,
+				7DD1A5D6673706561608AD95D6CCD339 /* Products */,
 				CAE38C5B975AC99117969F085173071B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		85027D59488F969870F9D10D59E2A5E5 /* ImageGridView */ = {
+		7DD1A5D6673706561608AD95D6CCD339 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AD0EDFC55FF20FD89DD160F5279351C /* Classes */,
+				58C0D43812F141A2A20537D79CF543BC /* ImageGridView.bundle */,
+				39C8B991F7EF9CE9C11A19C0719E7FD6 /* ImageGridView.framework */,
+				F36B1B556402D0658AE0269D9072E659 /* Pods_ImageGridView_Example.framework */,
+				1B27FDDFF1EB1A1299DA19857FFA18DF /* Pods_ImageGridView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8877BBFA84BE51E43AEE018C9A3088FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				528F0566A96A5C50F228208C7C07727D /* ImageGridView.modulemap */,
+				CB73E948CB95CFE01DACFA15AF75428C /* ImageGridView.xcconfig */,
+				A6D32B93E3A7261609EBD88EB2AB8839 /* ImageGridView-dummy.m */,
+				B9240371BA39C8168BB29DC9AEF12B3B /* ImageGridView-prefix.pch */,
+				418077AA022AC19DBA16EF4C1A3246D3 /* ImageGridView-umbrella.h */,
+				88F7F9D445FB9388853371E6E028A5FD /* Info.plist */,
+				95E81E083032838EF2539746E21B27EE /* ResourceBundle-ImageGridView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ImageGridView";
+			sourceTree = "<group>";
+		};
+		A3F2C41A3BCCB5E6C0F11FB73F39239E /* ImageGridView */ = {
+			isa = PBXGroup;
+			children = (
+				0F1BF080C36C4C5D056411CDA0C00C57 /* Classes */,
 			);
 			path = ImageGridView;
+			sourceTree = "<group>";
+		};
+		B8CC8EB275F438363CC110457A4AC9E9 /* ImageGridView */ = {
+			isa = PBXGroup;
+			children = (
+				A3F2C41A3BCCB5E6C0F11FB73F39239E /* ImageGridView */,
+				DC577D5310BB6DFA18537B75E56B026A /* Resources */,
+				8877BBFA84BE51E43AEE018C9A3088FF /* Support Files */,
+			);
+			name = ImageGridView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BABFBAF416D21C36921C0C50155CCEAA /* Pods-ImageGridView_Tests */ = {
@@ -185,14 +242,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CFF788529B6BD053C8DD939F503E3677 /* ImageGridView */ = {
+		CAEB27137B01A881A78624A9854DBA1D /* ImageGridView */ = {
 			isa = PBXGroup;
 			children = (
-				85027D59488F969870F9D10D59E2A5E5 /* ImageGridView */,
-				FB1B97ECED26CAB8E488912D63331824 /* Support Files */,
+				47393D05E3439167075A033429C58A87 /* Assets */,
 			);
-			name = ImageGridView;
-			path = ../..;
+			path = ImageGridView;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -203,26 +258,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DDA2D54ED81037844ABE4BD3B7CFA23A /* Development Pods */ = {
+		D8F58E3DBE0505A9C4E3BC192793C6E4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CFF788529B6BD053C8DD939F503E3677 /* ImageGridView */,
+				B8CC8EB275F438363CC110457A4AC9E9 /* ImageGridView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		FB1B97ECED26CAB8E488912D63331824 /* Support Files */ = {
+		DC577D5310BB6DFA18537B75E56B026A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				303331B30FECEF71AAE15FAA3085486F /* ImageGridView.modulemap */,
-				6FCFAF1AA9DFFFAE34EB51CEA0F3DDCA /* ImageGridView.xcconfig */,
-				7C813C4EE013CC515B28E85DCEFBB7EA /* ImageGridView-dummy.m */,
-				388C5D96C4759874362FA3E9C7D34E74 /* ImageGridView-prefix.pch */,
-				3C1A66798C35110FB3E7DE9DF211D5A5 /* ImageGridView-umbrella.h */,
-				69F653A08872E699D2F5E23D5E7B9426 /* Info.plist */,
+				CAEB27137B01A881A78624A9854DBA1D /* ImageGridView */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ImageGridView";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,11 +285,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A09C9DB7E7B7FC25289AC8B0A4A8CC59 /* Headers */ = {
+		A3FD312A00F2228961BC4BA5A77BE799 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCDA10E557ACF314D28BD105D851D6A /* ImageGridView-umbrella.h in Headers */,
+				F2C53CE7412370EF2847533CE08E36C7 /* ImageGridView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +304,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3E6FCDB66D0B7956D78995D248CABB3B /* ImageGridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDC9EB1A96667C6C86CB830105D5D47 /* Build configuration list for PBXNativeTarget "ImageGridView" */;
+			buildPhases = (
+				7130CFBD395BE61D63F19B181F5E4B8D /* Sources */,
+				AA6BE08A089FAB6B6FCC62BB85F9BE8A /* Frameworks */,
+				15C342A328D190745E127735F060C07E /* Resources */,
+				A3FD312A00F2228961BC4BA5A77BE799 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C91F8CA654F589554978AF70EF7ED91 /* PBXTargetDependency */,
+			);
+			name = ImageGridView;
+			productName = ImageGridView;
+			productReference = 39C8B991F7EF9CE9C11A19C0719E7FD6 /* ImageGridView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5D46EBD4CE83E26D44587EC447EEA84E /* Pods-ImageGridView_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A556AE55F4B8866FC7D8A4B8C7EE64E /* Build configuration list for PBXNativeTarget "Pods-ImageGridView_Tests" */;
@@ -269,25 +337,25 @@
 			);
 			name = "Pods-ImageGridView_Tests";
 			productName = "Pods-ImageGridView_Tests";
-			productReference = 4C6D19AD2FD3C116F0BB04D4D7420DC8 /* Pods_ImageGridView_Tests.framework */;
+			productReference = 1B27FDDFF1EB1A1299DA19857FFA18DF /* Pods_ImageGridView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AA6E8D1E014CF40C7C3F3660D4458A36 /* ImageGridView */ = {
+		A3AB6F1A521169EECEFA4D462AC1A888 /* ImageGridView-ImageGridView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B950DF9AF52EA2AB9D271DE434BC45FF /* Build configuration list for PBXNativeTarget "ImageGridView" */;
+			buildConfigurationList = E21D484DEBA78000D69C5C5D271F0080 /* Build configuration list for PBXNativeTarget "ImageGridView-ImageGridView" */;
 			buildPhases = (
-				9AA40260EE435588B5F3756394ECF41B /* Sources */,
-				84F471F95D906919A364621DF3DD77D0 /* Frameworks */,
-				A09C9DB7E7B7FC25289AC8B0A4A8CC59 /* Headers */,
+				7DB77D709C034387A1B12FAAC787E4EF /* Sources */,
+				260A61D640F234B85E3382E14599EF89 /* Frameworks */,
+				F68C080BFE7C2CF9D5FD2CB287D42F81 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ImageGridView;
-			productName = ImageGridView;
-			productReference = 53C8E09F2A1903EC272586B4E62DB7E8 /* ImageGridView.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "ImageGridView-ImageGridView";
+			productName = "ImageGridView-ImageGridView";
+			productReference = 58C0D43812F141A2A20537D79CF543BC /* ImageGridView.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		EDD06DA2D7B222D7C0521036156D1CB2 /* Pods-ImageGridView_Example */ = {
 			isa = PBXNativeTarget;
@@ -304,7 +372,7 @@
 			);
 			name = "Pods-ImageGridView_Example";
 			productName = "Pods-ImageGridView_Example";
-			productReference = 069B31FBEA79E246F4F82C1D7C3AD826 /* Pods_ImageGridView_Example.framework */;
+			productReference = F36B1B556402D0658AE0269D9072E659 /* Pods_ImageGridView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -315,11 +383,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					AA6E8D1E014CF40C7C3F3660D4458A36 = {
-						LastSwiftMigration = 0830;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -329,16 +392,37 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4AFF1A99036EADD1EFA09FC5EDD3CECA /* Products */;
+			productRefGroup = 7DD1A5D6673706561608AD95D6CCD339 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA6E8D1E014CF40C7C3F3660D4458A36 /* ImageGridView */,
+				3E6FCDB66D0B7956D78995D248CABB3B /* ImageGridView */,
+				A3AB6F1A521169EECEFA4D462AC1A888 /* ImageGridView-ImageGridView */,
 				EDD06DA2D7B222D7C0521036156D1CB2 /* Pods-ImageGridView_Example */,
 				5D46EBD4CE83E26D44587EC447EEA84E /* Pods-ImageGridView_Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15C342A328D190745E127735F060C07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E2D1518B1A4137C5A7BA198530CD1E /* ImageGridView.bundle in Resources */,
+				532767531F803D3300B19026 /* CrossIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68C080BFE7C2CF9D5FD2CB287D42F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C85D8A9DE362E35F2470C37E116606 /* PlusIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		306552FCFECB04219DB55198232D06CA /* Sources */ = {
@@ -349,13 +433,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AA40260EE435588B5F3756394ECF41B /* Sources */ = {
+		7130CFBD395BE61D63F19B181F5E4B8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5305CD4F1F80143F0027F2E7 /* ImageGridView.swift in Sources */,
-				CD1A90B89A7EF517C192048B24245590 /* ImageGridView-dummy.m in Sources */,
-				5305CD4E1F80143F0027F2E7 /* ImageGridItemView.swift in Sources */,
+				6EC11DCC6CCB0F429EB91405710B5752 /* ImageGridItemView.swift in Sources */,
+				9AF894C217645AB843D892B753A0E2AC /* ImageGridView-dummy.m in Sources */,
+				2E22FCE13250212658D16F6B672BAAA6 /* ImageGridView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB77D709C034387A1B12FAAC787E4EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,10 +461,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9C91F8CA654F589554978AF70EF7ED91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ImageGridView-ImageGridView";
+			target = A3AB6F1A521169EECEFA4D462AC1A888 /* ImageGridView-ImageGridView */;
+			targetProxy = B17081E1979B90389F84548DADA196FD /* PBXContainerItemProxy */;
+		};
 		9F2C2B06DE20A203F4EDDEF6AFCA98B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ImageGridView;
-			target = AA6E8D1E014CF40C7C3F3660D4458A36 /* ImageGridView */;
+			target = 3E6FCDB66D0B7956D78995D248CABB3B /* ImageGridView */;
 			targetProxy = 8860C6262B7845B90B4A1318D7157B3C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -504,6 +601,41 @@
 			};
 			name = Debug;
 		};
+		5E63228C784E82EE2D258EAC476FAB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB73E948CB95CFE01DACFA15AF75428C /* ImageGridView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ImageGridView/ImageGridView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageGridView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageGridView/ImageGridView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ImageGridView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -548,6 +680,40 @@
 			};
 			name = Release;
 		};
+		78E39F4C3C331AF31E17AB07CB2E7FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB73E948CB95CFE01DACFA15AF75428C /* ImageGridView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ImageGridView/ImageGridView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageGridView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageGridView/ImageGridView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ImageGridView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8307469F82AAA3B933C23552205DD372 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 315C9FD2CFC36A7409782082AF512A7C /* Pods-ImageGridView_Tests.debug.xcconfig */;
@@ -578,42 +744,6 @@
 				PRODUCT_NAME = Pods_ImageGridView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8E3CCEB80D13C503A2FB17A231AC7C2C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FCFAF1AA9DFFFAE34EB51CEA0F3DDCA /* ImageGridView.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ImageGridView/ImageGridView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageGridView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageGridView/ImageGridView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ImageGridView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -656,38 +786,37 @@
 			};
 			name = Release;
 		};
-		D4FAD383CA7EAD18F9AD7E83C0BD7CAF /* Release */ = {
+		E0FFEE11C4DBF6CB1DC1CBEB6602C218 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FCFAF1AA9DFFFAE34EB51CEA0F3DDCA /* ImageGridView.xcconfig */;
+			baseConfigurationReference = CB73E948CB95CFE01DACFA15AF75428C /* ImageGridView.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ImageGridView";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ImageGridView/ImageGridView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageGridView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = "Target Support Files/ImageGridView/ResourceBundle-ImageGridView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageGridView/ImageGridView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = ImageGridView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F49200CD1E7B7532929126168000D043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB73E948CB95CFE01DACFA15AF75428C /* ImageGridView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ImageGridView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ImageGridView/ResourceBundle-ImageGridView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ImageGridView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -712,11 +841,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B950DF9AF52EA2AB9D271DE434BC45FF /* Build configuration list for PBXNativeTarget "ImageGridView" */ = {
+		5CDC9EB1A96667C6C86CB830105D5D47 /* Build configuration list for PBXNativeTarget "ImageGridView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E3CCEB80D13C503A2FB17A231AC7C2C /* Debug */,
-				D4FAD383CA7EAD18F9AD7E83C0BD7CAF /* Release */,
+				5E63228C784E82EE2D258EAC476FAB50 /* Debug */,
+				78E39F4C3C331AF31E17AB07CB2E7FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21D484DEBA78000D69C5C5D271F0080 /* Build configuration list for PBXNativeTarget "ImageGridView-ImageGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0FFEE11C4DBF6CB1DC1CBEB6602C218 /* Debug */,
+				F49200CD1E7B7532929126168000D043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

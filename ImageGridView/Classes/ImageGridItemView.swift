@@ -3,7 +3,6 @@
 //  ImageGridView
 //
 //  Created by Miraan on 30/09/2017.
-//  Copyright © 2017 Miraan. All rights reserved.
 //
 
 import UIKit
@@ -35,7 +34,8 @@ class ImageGridItemView: UIView {
         super.init(frame: frame)
         let panRecognizer = UIPanGestureRecognizer(target: self, action: #selector(ImageGridItemView.detectPan(recognizer:)))
         self.gestureRecognizers = [panRecognizer]
-        self.backgroundColor = UIColor.green
+        self.layer.borderColor = UIColor.lightGray.cgColor
+        self.layer.borderWidth = 0.5
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -45,6 +45,9 @@ class ImageGridItemView: UIView {
     func detectPan(recognizer: UIPanGestureRecognizer) {
         if delegate == nil {
             print("ImageGridItemView:detectPan() error: No delegate")
+            return
+        }
+        if imageView.image == nil {
             return
         }
         
@@ -71,15 +74,42 @@ class ImageGridItemView: UIView {
             print("ImageGridItemView:reload() error: datasource is nil")
             return
         }
+        
         if self.imageView != nil {
             self.imageView.removeFromSuperview()
             self.imageView = nil
         }
         self.imageView = UIImageView(frame: self.bounds)
-        self.imageView.image = datasource.imageGridItemViewImage(self)
+        let image = datasource.imageGridItemViewImage(self)
+        self.imageView.image = image
         self.imageView.contentMode = UIViewContentMode.scaleAspectFill
         self.imageView.clipsToBounds = true
         self.addSubview(self.imageView)
+        
+        if self.buttonImageView != nil {
+            self.buttonImageView.removeFromSuperview()
+            self.buttonImageView = nil
+        }
+        var buttonFrame: CGRect!
+        if image == nil {
+            buttonFrame = CGRect(x: self.frame.width / 4, y: self.frame.height / 4, width: self.frame.width / 2, height: self.frame.height / 2)
+        } else {
+            let length: CGFloat = 20.0
+            let padding: CGFloat = 10.0
+            buttonFrame = CGRect(x: self.frame.width - (length + padding), y: self.frame.height - (length + padding), width: length, height: length)
+        }
+        self.buttonImageView = UIImageView(frame: buttonFrame)
+        self.buttonImageView.image = UIImage(named: image == nil ? "PlusIcon.png" : "CrossIcon.png", in: Bundle(for: type(of: self)), compatibleWith: nil)
+        self.buttonImageView.contentMode = UIViewContentMode.scaleAspectFill
+        self.buttonImageView.isUserInteractionEnabled = true
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(ImageGridItemView.didTapButton))
+        tapRecognizer.numberOfTapsRequired = 1
+        self.buttonImageView.addGestureRecognizer(tapRecognizer)
+        self.addSubview(self.buttonImageView)
+    }
+    
+    func didTapButton() {
+        datasource.imageGridItemViewImage(self) == nil ? delegate.imageGridItemViewDidTapAddImage(self) : delegate.imageGridItemViewDidTapDelete(self)
     }
     
 }

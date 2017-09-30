@@ -3,7 +3,6 @@
 //  ImageGridView
 //
 //  Created by miraan on 09/30/2017.
-//  Copyright (c) 2017 miraan. All rights reserved.
 //
 
 import UIKit

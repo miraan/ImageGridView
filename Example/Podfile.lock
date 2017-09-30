@@ -1,0 +1,16 @@
+PODS:
+  - ImageGridView (0.1.0)
+
+DEPENDENCIES:
+  - ImageGridView (from `../`)
+
+EXTERNAL SOURCES:
+  ImageGridView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ImageGridView: f0eb82d5f7f3263954a00cf45f9b20a0774c7e52
+
+PODFILE CHECKSUM: a9cba5231ac20eefe077e92199b0f952f87513ab
+
+COCOAPODS: 1.2.1

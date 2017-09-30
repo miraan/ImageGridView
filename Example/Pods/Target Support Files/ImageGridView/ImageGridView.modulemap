@@ -1,0 +1,6 @@
+framework module ImageGridView {
+  umbrella header "ImageGridView-umbrella.h"
+
+  export *
+  module * { export * }
+}

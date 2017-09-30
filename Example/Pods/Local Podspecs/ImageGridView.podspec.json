@@ -1,0 +1,22 @@
+{
+  "name": "ImageGridView",
+  "version": "0.1.0",
+  "summary": "A short description of ImageGridView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/miraan/ImageGridView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "miraan": "miraan@triprapp.com"
+  },
+  "source": {
+    "git": "https://github.com/miraan/ImageGridView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ImageGridView/Classes/**/*"
+}

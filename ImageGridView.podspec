@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ImageGridView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ImageGridView.'
+  s.summary          = 'A drag and drop, reorderable, image grid suitable for a profile picture selector.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

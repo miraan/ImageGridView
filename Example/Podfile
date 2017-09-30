@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ImageGridView_Example' do
+  pod 'ImageGridView', :path => '../'
+
+  target 'ImageGridView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

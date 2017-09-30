@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This pod gives you an image grid view which displays images. Images can be dragged and dropped to be reordered. There are buttons to delete images and add new images. The grid automatically resizes when more images are added. You can hook in delegate methods to control the behaviour when the user taps delete or add. This was originally designed for a profile picture selector on an edit profile screen.
                        DESC
 
   s.homepage         = 'https://github.com/miraan/ImageGridView'

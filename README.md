@@ -20,14 +20,20 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 It's as simple as:
 
 ```swift
-let imageGridView = ImageGridView(frame: self.imageGridViewContainer.bounds)
+let imageGridView = ImageGridView(frame: imageGridViewContainer.bounds)
 imageGridView.delegate = self
 imageGridView.datasource = self
 imageGridViewContainer.addSubview(imageGridView)
 imageGridView.reload()
 ```
 
-Just implement the delegate methods:
+Just implement the datasource method:
+
+```swift
+func imageGridViewImages(_ imageGridView: ImageGridView) -> [UIImage]
+```
+
+And the delegate methods:
 
 ```swift
 func imageGridView(_ imageGridView: ImageGridView, didTapDeleteForImage index: Int)
@@ -35,17 +41,13 @@ func imageGridViewDidTapAddImage(_ imageGridView: ImageGridView)
 func imageGridView(_ imageGridView: ImageGridView, didMoveImage fromIndex: Int, toIndex: Int)
 ```
 
-And the datasource method:
-
-```swift
-func imageGridViewImages(_ imageGridView: ImageGridView) -> [UIImage]
-```
-
 You can also set additional options to override the defaults:
 
 ```swift
 imageGridView.maxCapacity = 7
 ```
+
+For a full working example, see `ViewController.swift` in the Example project.
 
 ## Installation
 

@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         self.imageGridView = ImageGridView(frame: self.imageGridViewContainer.bounds)
         self.imageGridView.delegate = self
         self.imageGridView.datasource = self
+        self.imageGridView.maxCapacity = 7
         self.imageGridViewContainer.addSubview(imageGridView)
         self.imageGridView.reload()
     }

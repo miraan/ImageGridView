@@ -24,9 +24,10 @@ public class ImageGridView: UIView {
     
     public var delegate: ImageGridViewDelegate!
     public var datasource: ImageGridViewDatasource!
+    public var maxCapacity: Int = 8
     
     var itemViews: [ImageGridItemView] = []
-
+    
     public override init(frame: CGRect) {
         super.init(frame: frame)
         if frame.size.width != frame.size.height {
@@ -58,12 +59,15 @@ public class ImageGridView: UIView {
         let totalPadding = CGFloat(size - 1) * itemPadding
         let itemSize = (frame.size.width - totalPadding) / CGFloat(size)
         self.overlapThreshold = itemSize / 2
-        for row in 0...size-1 {
+        outerLoop: for row in 0...size-1 {
             for col in 0...size-1 {
+                let index = (row * size) + col
+                if index >= maxCapacity {
+                    break outerLoop
+                }
                 let x = (CGFloat(col) * itemSize) + (CGFloat(col) * itemPadding)
                 let y = (CGFloat(row) * itemSize) + (CGFloat(row) * itemPadding)
                 let itemView = ImageGridItemView(frame: CGRect(x: x, y: y, width: itemSize, height: itemSize))
-                let index = (row * size) + col
                 itemView.index = index
                 itemView.delegate = self
                 itemView.datasource = self
